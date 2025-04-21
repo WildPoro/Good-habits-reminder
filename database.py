@@ -1,3 +1,7 @@
+"""Author
+Kristian Zotka  
+[LinkedIn](https://www.linkedin.com/in/kristian-zotka)"""
+
 from habits_scraper import scrape
 import psycopg2
 
