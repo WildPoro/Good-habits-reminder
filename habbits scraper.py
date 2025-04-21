@@ -1,3 +1,7 @@
+"""Author
+Kristian Zotka  
+[LinkedIn](https://www.linkedin.com/in/kristian-zotka)"""
+
 import requests
 from bs4 import BeautifulSoup
 
