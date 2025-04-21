@@ -1,13 +1,33 @@
-# Good-habits-reminder
+# Good Habits Reminder
 
-This is another fun project. 
+A multi-part Python project that automates the collection, storage, and delivery of daily habit reminders via SMS. This tool is designed to help users build better routines through automation and consistency.
 
-It's broken down into several parts
+ Project Overview
 
-What part 1 does is to extract good habits from a website I pass it to. 
+The project is broken down into three parts:
 
-In part 2, it stores those habits in an SQL databse I created. 
+ Part 1: Habit Extraction
+- Scrapes a list of recommended good habits from a specified website.
+- Parses and filters relevant habit suggestions.
 
-In part 3, it sends messages to my phone to remind me to do said habbits.
+ Part 2: Data Storage
+- Stores extracted habits in a local SQLite database.
+- Ensures data persistence and easy access for future operations.
 
-I am using a virtual phone number from Twilio which I then used to automate the texting of said reminders. 
+ Part 3: SMS Reminders
+- Sends daily habit reminders to the user’s phone.
+- Uses a Twilio virtual phone number to automate and schedule text messages.
+
+## Technologies Used
+- Python
+- PostgreSQL
+- Twilio API
+- Requests / BeautifulSoup (for web scraping)
+
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/WildPoro/good-habits-tracker.git
+   cd good-habits-tracker
