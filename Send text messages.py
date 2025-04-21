@@ -1,3 +1,7 @@
+"""Author
+Kristian Zotka  
+[LinkedIn](https://www.linkedin.com/in/kristian-zotka)"""
+
 from twilio.rest import Client
 import psycopg2
 import schedule
